@@ -90,6 +90,7 @@ router.post('/login', [
                 return res.status(200).json({
                     error: false,
                     message: "User Logged Successfully",
+                    user,
                     token
                 })
             });
